@@ -5,7 +5,7 @@ class Devenv < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/arashrasoulzadeh/devenv/releases/download/commit-b2a0221/devenv-macos-arm64"
-    sha256 "sha256:3eed0f1f2bcc88b691df5d02aedbf983802f1732a4da547d233bcf41fdd6693d"
+    sha256 "3eed0f1f2bcc88b691df5d02aedbf983802f1732a4da547d233bcf41fdd6693d"
   end
 
   def install
