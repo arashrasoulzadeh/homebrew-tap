@@ -1,11 +1,11 @@
 class Devenv < Formula
   desc "Dev environment tool"
   homepage "https://github.com/arashrasoulzadeh/devenv"
-  version "1.2"
+  version "1.3"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/arashrasoulzadeh/devenv/releases/download/commit-8ff33a0/devenv-macos-arm64"
-    sha256 "ca260928a0419e685a23ed71ca5de731709371296fd08cebb64667a1e21ecfcf"
+    url "https://github.com/arashrasoulzadeh/devenv/releases/download/commit-7e5b0db/devenv-macos-arm64"
+    sha256 "28e08385876305c3b75ddb14fd9fd6530b32794f78f82bfcff4824e575016df7"
   end
 
   def install
